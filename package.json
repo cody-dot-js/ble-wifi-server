@@ -1,0 +1,29 @@
+{
+  "name": "ble-wifi-server",
+  "version": "0.0.0",
+  "description": "Bluetooth LE WiFi Control Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-cprice/ble-wifi-server.git"
+  },
+  "keywords": [
+    "ble",
+    "server",
+    "wifi"
+  ],
+  "author": "dev-cprice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev-cprice/ble-wifi-server/issues"
+  },
+  "homepage": "https://github.com/dev-cprice/ble-wifi-server#readme",
+  "dependencies": {
+    "noble": "^1.9.1",
+    "node-wifi": "^2.0.4"
+  }
+}
